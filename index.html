@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Current Weather</title>
+</head>
+
+<body>
+    <script src="script.js" defer></script>
+    <div class='background'>
+        <div class="input">
+            
+            <input type="text" placeholder="City Name" class="input_value">
+            <input type="submit" value="Search" class="submit_button">
+            
+        </div>
+
+        <div class="container"> 
+            <p class="city_name" id='city_name'></p>
+            <img class="weather_icon" src='http://openweathermap.org/img/wn/01n.png' alt="image">
+            <p class="city_temp" id="city_temp"></p>
+            <p class="city_hi" id="city_hi"></p>
+            
+            
+            
+            
+            <div class="forecast">
+                <div id="forecast_text"></div>
+                <div id= "box1"></div>
+                    <img class="weather_icon1" src='http://openweathermap.org/img/wn/01n.png' alt="image">
+                <div id= "box2"></div>   
+                    <img class="weather_icon2" src='http://openweathermap.org/img/wn/01n.png' alt="image">
+                <div id= "box3"></div>
+                    <img class="weather_icon3" src='http://openweathermap.org/img/wn/01n.png' alt="image">
+                <div id= "box4"></div>
+                    <img class="weather_icon4" src='http://openweathermap.org/img/wn/01n.png' alt="image">
+                <div id= "box5"></div>
+                    <img class="weather_icon5" src='http://openweathermap.org/img/wn/01n.png' alt="image"> 
+            
+                </div>      
+        </div>
+
+    </div>
+   
+
+</body>
+</html>
