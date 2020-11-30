@@ -91,5 +91,8 @@ submit_button.addEventListener('click', function(){
 window.onload = async function() {
     if (usr_input.value.length != 0){
         submit_button.click();
+    } else if (usr_input.value.length == 0){
+        usr_input.value = "Hays";
+        submit_button.click();
     }
 }
