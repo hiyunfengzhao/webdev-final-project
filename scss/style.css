@@ -10,9 +10,7 @@
 }
 
 .background {
-  background-image: url("../scss/bg.jpg");
-  min-height: 100%;
-  min-width: 1024px;
+  background-image: url("bg.jpg");
   width: 100%;
   height: auto;
   position: fixed;
